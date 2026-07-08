@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
 export default function Weather(props) {
-  const [temperature, setTemperature] = useState(props.temperature);
   const [city, setCity] = useState("");
   const [weatherInfo, setWeatherInfo] = useState("");
 
   function handleWeather(event) {
     event.preventDefault();
-    setWeatherInfo(`It is ${temperature}°C in ${city}`);
+    setWeatherInfo(`It is  19°C in ${city}`);
   }
 
   function updateCity(event) {
