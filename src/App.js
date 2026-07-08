@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Weather Search Engine</h1>
-      <Weather city="Paris" temperature={19} />
+      <Weather city="Paris" />
     </div>
   );
 }
