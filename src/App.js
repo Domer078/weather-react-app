@@ -6,6 +6,12 @@ function App() {
     <div className="App">
       <h1>Weather Search Engine</h1>
       <Weather city="Paris" />
+      <p>
+        This code was coded with ❤️ and is open-sourced on{" "}
+        <a href="https://github.com/Domer078/weather-react-app">Github</a> and
+        hosted on{" "}
+        <a href="https://magical-panda-4acfd3.netlify.app/">Netlify</a>
+      </p>
     </div>
   );
 }
